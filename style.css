@@ -32,6 +32,7 @@ input {
 
 .slogan__img {
   width: 100%;
+  display: block;
 }
 
 .slogan__link {
@@ -87,7 +88,7 @@ input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
-  height: 21px;
+  height: 19px;
   padding: 0 9px;
   border: 1px solid #ddd;
   background: #fff;
@@ -140,9 +141,11 @@ input {
 }
 
 .btn__img {
+  display: block;
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
+  margin: 0 auto;
 }
 
 .btn__img:hover {
